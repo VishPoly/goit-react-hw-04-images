@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-// import PropTypes from 'prop-types';
+
+
 import { ToastContainer, toast } from 'react-toastify';
 import { Zoom } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -13,6 +14,7 @@ import fetchApi from '../components/service/ApiService';
 import Spiner from './loader/Loader';
 import Modal from './modal/Modal';
 // propTypes = { searchQuery: PropTypes.string };
+
 axios.defaults.baseURL = 'https://pixabay.com/api/';
 export default function App() {
   const [searchQuery, setSearchQuery] = useState('');

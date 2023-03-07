@@ -3,6 +3,7 @@ import { createPortal } from 'react-dom';
 import PropTypes from 'prop-types';
 import { ModalOverlay, ModalContainer } from './Modal.styled';
 
+
 const modalRoot = document.querySelector('#modal-root');
 
 export default function Modal({ selectedImage, tags, onClose }) {

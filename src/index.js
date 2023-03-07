@@ -4,6 +4,7 @@ import App from 'components/App';
 import './index.css';
 import smoothscroll from 'smoothscroll-polyfill';
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
